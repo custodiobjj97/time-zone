@@ -1,0 +1,67 @@
+.shop{
+    padding: 120px 12px;
+}
+.shop h2{
+    text-align: center;
+    font-size: 2.66rem;
+    margin-bottom: 2rem;
+}
+
+.shop p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.slide-wrapper{
+    overflow: hidden;
+}
+
+
+.slide{
+    display: flex;
+}
+
+.slide li{
+    flex-shrink: 0;
+    max-width: 700px;
+    width: 80vw;
+    opacity: 0.7;
+    transform: scale(0.7);
+    user-select: none;
+    transition: .3s;
+    text-align: center;
+}
+
+.slide li.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slide li img{
+    margin-bottom: 1.8rem;
+}
+
+.control-custom{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1.5rem;
+    margin: 1rem;
+    
+}
+
+.control-custom li{
+    width: 25px;
+    height:25px;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(0.7);
+    transition: .4s;
+}
+
+.control-custom li.active{
+    opacity: 1;
+    transform: scale(1);
+}

@@ -1,0 +1,41 @@
+.home{
+    padding: 120px 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.home h1{
+    font-size: 2.66rem;
+    margin-bottom:1.8rem ;
+}
+
+.home p{
+    font-size: 0.90rem;
+    margin-bottom: 1.8rem;
+}
+
+.home-image img{
+    max-width: 200px;
+    width: 100%;
+} 
+
+@media (min-width:1042px){
+    .home{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .home-image img{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .home h1{
+        font-size: 4rem;
+    }
+    .home p{
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,44 @@
+.blog{
+    padding: 120px 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+}
+
+.blog-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.blog-text{
+    text-align: center;
+
+}
+
+.blog-text h2{
+    font-size: 2.66rem;
+    margin-bottom: 1.8rem;
+}
+
+.blog-text p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width:1042px){
+    .blog-box{
+       flex-direction: row;
+       justify-content: space-around;
+    }
+    .blog-text{
+        max-width: 550px;
+    }
+
+    .blog-text p{
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,22 @@
+.input-dark{
+    visibility: hidden;
+}
+
+.toggle-dark{
+    padding: 0.90rem 3rem;
+    background-color: rgb(250, 167, 13);
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    right:1rem;
+    z-index: 222222;
+    position: fixed;
+}
+
+.toggle-dark i{
+    color: var(--color-red);
+    font-size: 1.11rem;
+   
+}
+

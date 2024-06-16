@@ -1,0 +1,40 @@
+.banner{
+ padding: 120px 12px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 1rem;
+
+}
+
+.col-banner-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.col-banner-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem
+}
+
+
+
+.banner img:hover{
+    transform: translateY(-4px);
+    transition-duration: .4s ;
+}
+
+@media (min-width:1042px){
+  .banner{
+    flex-direction: row;
+  }
+  .col-banner-1{
+    flex-direction: row ;
+  }
+}

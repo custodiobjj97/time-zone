@@ -1,0 +1,42 @@
+footer{
+    padding:120px 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    position: relative;
+}
+
+.copy{
+   width: 100%;
+   position: absolute;
+   bottom: 20px;
+   text-align: center;
+}
+
+.list-footer{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.90rem;
+}
+
+.list-footer p{
+    font-size: .89rem;
+}
+
+.list-footer li a{
+    color: var(--color-red);
+}
+
+.footer-col img{
+    margin-bottom: 2rem;
+}
+
+@media (min-width:1042px){
+    footer{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+
+
